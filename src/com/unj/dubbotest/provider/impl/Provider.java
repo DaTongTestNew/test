@@ -8,7 +8,7 @@ public class Provider {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
 				new String[] { "applicationContext.xml" });
 		context.start();
-		
+		String s = "";
 		System.in.read(); // 为保证服务一直开着，利用输入流的阻塞来模拟
 		
 	}
