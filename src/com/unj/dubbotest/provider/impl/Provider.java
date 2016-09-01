@@ -9,5 +9,6 @@ public class Provider {
 				new String[] { "applicationContext.xml" });
 		context.start();
 		System.in.read(); // 为保证服务一直开着，利用输入流的阻塞来模拟
+		
 	}
 }
