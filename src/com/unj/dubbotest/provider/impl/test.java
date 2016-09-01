@@ -1,5 +1,8 @@
 package com.unj.dubbotest.provider.impl;
-//git²âÊÔ
+//gitï¿½ï¿½ï¿½ï¿½
 public class test {
-
+public test() {
+	// TODO Auto-generated constructor stub
+	String  a;
+}
 }
